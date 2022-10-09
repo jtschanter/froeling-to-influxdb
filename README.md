@@ -1,4 +1,4 @@
-# Froeling to Influxdb
+# Froeling to InfluxDB
 
 ## Description
 
