@@ -1,0 +1,16 @@
+id;measurement;tags;field;meh;skal;dez;min;max;rw
+40001;kessel;messwert=soll;temperatur;°C;2;0;70;90;rw
+40319;kessel;messwert=ist,location=pelletsschnecke;gefoerderte-pellets-bei-100%-einschub;g;1;0;0;3000;rw
+40320;pelletslager;messwert=ist;restbestand;t;10;1;0;100;rw
+41032;heizkreislauf-1;messwert=soll+10-aussentemperatur,location=vorlauf;temperatur;°C;2;0;10;110;rw
+41033;heizkreislauf-1;messwert=soll-10-aussentemperatur,location=vorlauf;temperatur;°C;2;0;10;110;rw
+41034;heizkreislauf-1;messwert=soll-im-absenkbetrieb,location=vorlauf;temperatur;°C;2;0;0;70;rw
+41035;heizkreislauf-1;messwert=maximal,location=vorlauf;temperatur;°C;2;0;20;110;r
+41037;heizkreislauf-1;messwert=einschaltung-im-heizbetrieb;temperatur;°C;2;0;20;50;rw
+41038;heizkreislauf-1;messwert=einschaltung-im-absenkbetrieb;temperatur;°C;2;0;20;50;rw
+41062;heizkreislauf-2;messwert=soll+10-aussentemperatur,location=vorlauf;temperatur;°C;2;0;10;110;rw
+41063;heizkreislauf-2;messwert=soll-10-aussentemperatur,location=vorlauf;temperatur;°C;2;0;10;110;rw
+41064;heizkreislauf-2;messwert=soll-im-absenkbetrieb,location=vorlauf;temperatur;°C;2;0;0;70;rw
+41065;heizkreislauf-2;messwert=maximal,location=vorlauf;temperatur;°C;2;0;20;110;r
+41067;heizkreislauf-2;messwert=einschaltung-im-heizbetrieb;temperatur;°C;2;0;20;50;rw
+41068;heizkreislauf-2;messwert=einschaltung-im-absenkbetrieb;temperatur;°C;2;0;20;50;rw
