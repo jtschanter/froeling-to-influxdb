@@ -8,17 +8,17 @@ import minimalmodbus
 class ModbusLambdatronic:
 
     def __init__(self):
-        config = dotenv_values("modbus_lambdatronic.env")        
+        config = dotenv_values("modbuslambdatronic.env")        
         self.instrument = minimalmodbus.Instrument(
             port=config["PORT_NAME"],
-            slaveaddress=config["SLAVE_ADDRESS"],
+            slaveaddress=int(config["SLAVE_ADDRESS"]),
             mode=config["MODE"],
             debug=config["DEBUG"]
         )
         self.instrument.serial.baudrate = config["BAUDRATE"]
-        self.instrument.serial.bytesize = config["BYTESIZE"]
+        self.instrument.serial.bytesize = int(config["BYTESIZE"])
         self.instrument.serial.parity = serial.PARITY_NONE
-        self.instrument.serial.stopbits = config["STOPBITS"]
+        self.instrument.serial.stopbits = int(config["STOPBITS"])
 
     def read_register_address(self, registeraddress, number_of_decimals, functioncode, scale):
         res = self.instrument.read_register(
